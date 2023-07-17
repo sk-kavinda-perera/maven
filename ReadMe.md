@@ -24,9 +24,17 @@ Maven is used as a build tool. Which is a famous build tool that has about 70 pe
 * Projects are described in, and xml document constrained by an XML Schema 
 * Gradle uses a Groovy DSL, which can offer greater build flexibility 
 
-**Java Packaging
+**Java Packaging**
 * **.jar** - Java ARchive - Zip file containing one or more Java class files.
 * **.war** - Web Application aRchive - Zip file containing web application. Includes one or more jar files, Java class files, and web resources.
 * **.ear** - Enterprise aRchive - Zip file containing one more more WAR files.
 * **Fat JAR (aka Uber JAR)** - Executable Jar containing all dependencies. (Used by Spring Boot)
 * **Docker Container** - Docker Image containing runtime environment, JVM, and Java package
+
+**Java Deployment**
+* Simple JAR files are typically collection of class files used to compose applications
+* Typically not a complete application
+* WAR, EAR files are typically complete applications which are deployed to application servers Tomcat / Weboss, Websphere, etc
+* Fat / Uber Jars are typically complete applications which contain embedded application servers
+* Can be deployed stand alone
+* Docker Images are complete applications which can be deployed stand alone
