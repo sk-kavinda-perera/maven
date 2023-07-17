@@ -1,0 +1,3 @@
+jar cf myjar.jar HelloWorld.class //jar-> signifies you creating a jar, cf -> create file , myjar.jar is the file name , adding class to the jar file
+java -classpath myjar.jar HelloWorld //adding jar file to class path and running hello world
+unzip myjar.jar // unziping the jar file
