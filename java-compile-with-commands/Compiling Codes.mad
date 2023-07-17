@@ -1,0 +1,2 @@
+javac HelloWorld.java - > to compile and get the class file which is the bytecode
+java HelloWorld - > to run the java
