@@ -38,3 +38,12 @@ Maven is used as a build tool. Which is a famous build tool that has about 70 pe
 * Fat / Uber Jars are typically complete applications which contain embedded application servers
 * Can be deployed stand alone
 * Docker Images are complete applications which can be deployed stand alone
+
+
+**What is a xsd file?** - This Refers to xml schema
+**what does pom stands for?** - Project Object Model
+**What is the term used for the combination of Group ID, Artifact Id, and Version?** - Maven Coordinates 
+**What command can you use to tell what version of Maven you are using?** - mvn --version
+**What command do you use to create a jar file from your Maven project?** - What command do you use to create a jar file from your Maven project?
+**What directory are build artifacts placed in by Maven?** - > /target
+**How do you add a 3rd party JAR to your Maven project?**Add a dependencies section to the project pom and the 3rd party jar using its maven coordinates.
