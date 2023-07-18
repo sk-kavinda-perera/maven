@@ -1,0 +1,1 @@
+* Dependency is included in the compile time in order to sucessfully build the project but it isnt stored in jar since it is a normal jar not a fat jar
